@@ -27,4 +27,4 @@ Update deply.yml to point to your newly built docker image. (or keep the prebuil
 
 ## How To Deploy To Akash
 
-You can review our Akash DeCloud deployment process here: https://github.com/lightiv/SkyNet/wiki/Akash-Decentralized-Deployment-Guide
+You can review our Akash DeCloud deployment cheat-sheet here: https://github.com/lightiv/SkyNet/wiki/Akash-Decentralized-Deployment-Guide
