@@ -6,7 +6,7 @@ services:
     image: user994455/ubuntu-base:0.2
     env:
       - sshport=22322
-      - pubkey=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCoz8I2ZC/e6D6Xs/jtoWe7QQJdGQiErXZSk3AsRn6PHyrnOxy7wu3Rgb1v3NrTXLKnFsJwgWWYtPh4piEzWLYG0VJFI7LRk8OdzYPyfwE2v9bsSt0U3zw6z7Gq3er9UXCII8QhgPzxSgYcqaSIHz60TDZV0yWPZuMwHUxA4wssaWAAkRbdrP5abXgdjhTw4eqQuvgQQ6nJMcTGvYRikCoSn3kd+U4j55Qht1uD9bms1h2pIZbaJ7/mbuFYNO5AOSwrrv4YkWfqO8MagGaBiSsIsa6FObrkDg6QZFrqWjWo+0oz33THxZBOlxuc4vaD/vk0EpzHmSoq3BX0fi0lRzZQbG2JEtZ5IxU0u3TIWwIosbSk3shSWFzK1CIa5bBTD6nHwaHyzoNfFZ7pttcmrObxproMqvu39EZLgXhWbethgOCYuMqR7SdNdbAKLySnDThYRCD2iptQamGdQ4vhI/N8H9JlUNMnjsPN8T8XKYLmOxE3O4XTxGzkiSlBNnHOjjk= Admin
+      - pubkey=<YOUR_SSH_PUBLIC_KEY-NO_QUOTES>
     expose:
       - port: 22322
         as: 22322
