@@ -5,11 +5,11 @@ services:
   web:
     image: user994455/ubuntu-base:0.2
     env:
-      - sshport=22322
+      - sshport=22
       - pubkey=<YOUR_SSH_PUBLIC_KEY-NO_QUOTES>
     expose:
-      - port: 22322
-        as: 22322
+      - port: 22
+        as: 22
         to:
           - global: true
       - port: 8080
